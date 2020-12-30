@@ -1,2 +1,1 @@
-# learning_git
-Repo for learning github
+A very basic webpage which consists of html, css, javascript and some elements of bootstrap and jquery also.
