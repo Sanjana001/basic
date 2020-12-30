@@ -1,0 +1,58 @@
+body{
+	margin: 0;
+	top: 0;
+	left: 0;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+.icon{
+	/*margin-left: 50%;
+	margin-top: 300px;*/
+	border-radius: 50%;
+	background-color: aqua;
+	font-size: 35px;
+	padding: 20px;
+	cursor: pointer;
+	transform: translate(100vh,300px);
+}
+.body{
+	background-color: purple;
+}
+.input{
+   transform: translate(7vh,300px);
+   width: 35%;
+   display: none;
+}
+input{
+	width: 70%;
+	color: yellow;
+	font-size: 25px;
+	outline: none;
+	border: none;
+	float:left;
+	background-color: purple;
+	padding-top: 2px;
+	border-bottom: 2px solid black;
+}
+input::placeholder{
+	font-size: 25px;
+	color: white;
+	font-family: cursive;
+}
+.go{
+	width: 25%;
+	border: 50%;
+	font-weight: bold;
+	color: blue;
+	float:right;
+}
+.close{
+	color:white;
+	font-size: 30px;
+	display: none;
+}
+/*.active{
+	transform: rotate(360deg);
+	background-color: lime;
+	transform: translate(150vh,300px);
+}*/
