@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Basic</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="basic.css">
+        <script type="text/javascript" src="basic.js"></script>
+	</head>
+	<body>
+		<span class="btn btn-close close">&times;</span>
+        <i class='icon far' id="chng">&#xf07b;</i>
+        <div class="container-fluid input">
+        	<span><input placeholder="TYPE SOMETHING HERE"><button class="btn btn-sm btn-light go">Show Output</button></span>
+        </div>
+        <!--i style='font-size:24px' class='far'>&#xf07c;</i> &#xf07b
+        <h1 class="text-primary text-center">Hello</h1-->
+	</body>
+	<script>
+		$(document).ready(function(){
+			$(".icon").click(function(){
+				$(".icon").hide();
+				$("body").addClass("body");
+				$(".close").show();
+				$(".input").show();
+			});
+			$(".close").click(function(){
+				$("body").removeClass("body");
+				$(".icon").show();
+				$(".input").hide();
+				$(".close").hide();
+			});
+			$(".go").click(function(){
+				alert("Thank You");
+				$("body").removeClass("body");
+				$(".icon").html("&#xf07c;");
+				$(".icon").show();
+				$(".input").hide();
+				$(".close").hide();
+			})
+		});
+	</script>
+</html>
