@@ -6,8 +6,6 @@ body{
 	overflow: hidden;
 }
 .icon{
-	/*margin-left: 50%;
-	margin-top: 300px;*/
 	border-radius: 50%;
 	background-color: aqua;
 	font-size: 35px;
@@ -51,8 +49,3 @@ input::placeholder{
 	font-size: 30px;
 	display: none;
 }
-/*.active{
-	transform: rotate(360deg);
-	background-color: lime;
-	transform: translate(150vh,300px);
-}*/
